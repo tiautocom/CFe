@@ -1,0 +1,26 @@
+**Biblioteca com as funções específicas para NFC-e e S@T utilizando a BemaFI32.dll versão 7.0.2.68.
+**Para utilização com a Plataforma Fiscal Bematech em modo de compatibilidade com a ECF.
+**Contém todas as funções de ECF;
+
+**Funções de NFCE:
+*** VendeItemCompleto;
+*** NumeroSerieNFCe;
+*** TerminaFechamentoCupomNFCe;
+*** ChaveAcessoNFCe;
+*** UltimaChaveAcessoNFCe;
+*** DadosConsumidorNFCe;
+*** StatusUltimaNFCe;
+*** StatusUltimoCancelamentoNFCe;
+*** ProgramaContadorNFCe;
+*** DadosEnvioNFCe;
+*** ProtocoloUltimaNFCe;	 
+*** RetornaInformacoesNFCe;
+*** NumeroNotaNFCe;
+*** EfetuaFormaPagamentoNFCe;
+
+**Funções S@T:
+*** DadosSoftwareHouseSAT;
+*** UltimasInformacoesSAT;
+*** RetornaMensagemSeFazSAT;
+
+Criada em 02/08/2015 --- Bematech Software Partners ---

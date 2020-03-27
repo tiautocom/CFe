@@ -1,0 +1,39 @@
+23/04/2015
+1-Istalado ddl 7.0.4.10 versao CEST.
+2-IIserido novo metodo vende Item Completo.
+3-GdvVenda foi configurado efeito cascata na barra de rolagem.
+4-Retirou ultimo parametro do metodo VendeItemCompleto para incluir o Parametro
+CEST.
+5-Inserido na tabela Venda Campo NUM_CAIXA tipo Int, CEST tipo NVARCHAR(10).
+6-Inseridona Tabela Produto campos CEST Produto tipo NVARCHAR(10).
+7-Inserido na Tabela e Metodo Parametro campos NUM_CAIXA tipo Int.
+8-Trocado forma de trunacamento de D para T 
+////////////////////////////////////////////////////////////////////////
+
+06/04/2016
+
+1-Adicionar campo Unid na tabela venda.... UNID TIPO NCHAR(10)
+ 
+07/04/2016
+1-Adicionar uma coluna MSG tipo textna tabela parametro.
+2-Adicionar campo IM na tabela Parametro.
+
+13/04/2016
+
+1-ADICIONAR CAMPO NA TABELA TEMP - NOME TIPO VARCHAR(50)
+2-ADICIONAR CAMPOS NA TABELA TEMP - TIPO DO TIPO INT
+/////////////////////////////////////////////////////////////////////////
+
+25/04/2016
+1-Foi Gerado comando cancela ultima venda, com arquivo xml da venda cancelado.
+site consultadohttp://www.linhadecodigo.com.br/artigo/2582/gerando-arquivos-pdf-em-csharp.aspx
+
+/////////////////////////////////////////////////////////////////////////
+02/05/2016
+1-Corrigir xml Aliquotas
+
+20/05/2016
+1-CRIAR ATRIBUTO NA TABELA PARARAMETRO PORTA_COM NCHAR(10)
+
+29/06/2016
+1-CRIAR ATRIBUTO NUM_CAIXA TABELA PAGAMENTO_VENDA

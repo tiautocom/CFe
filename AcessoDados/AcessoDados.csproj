@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC069006-C3BE-406E-B611-3E90AEDD4EDC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AcessoDados</RootNamespace>
+    <AssemblyName>AcessoDados</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AcessoDados, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AcessoDados.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib, Version=1.0.0.20, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BarcodeLib.1.0.0.20\lib\net20\BarcodeLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.0.1.29147, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QrCodeNet.0.3\lib\Gma.QrCodeNet.Encoding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CartaoAcessoDados.cs" />
+    <Compile Include="CidadeAcesso Dados.cs" />
+    <Compile Include="ClienteAcessoDados.cs" />
+    <Compile Include="COFINS_AD.cs" />
+    <Compile Include="Conexao.cs" />
+    <Compile Include="ContaReceberAcessoDados.cs" />
+    <Compile Include="CsosnAcessoDados.cs" />
+    <Compile Include="CST_PIS_AcessoDados.cs" />
+    <Compile Include="DepartamentoAcessoDados.cs" />
+    <Compile Include="EstoqueIncialAcessoDados.cs" />
+    <Compile Include="FabricanteAcessoDados.cs" />
+    <Compile Include="FechamentoVendaAcessoDados.cs" />
+    <Compile Include="FormaPagamentoAcessoDados.cs" />
+    <Compile Include="ImagemAcessoDados.cs" />
+    <Compile Include="MateriaPrimaAcessoDados.cs" />
+    <Compile Include="NumCaixaAcessoDados.cs" />
+    <Compile Include="OperadorAcessoDados.cs" />
+    <Compile Include="PagamentoAcessoDados.cs" />
+    <Compile Include="PagamentoVendaAcessoDados.cs" />
+    <Compile Include="ParametroAcessoDados.cs" />
+    <Compile Include="PlacaAcessoDados.cs" />
+    <Compile Include="ProdutoAcessoDados.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SangriaAcessoDados.cs" />
+    <Compile Include="SenhaAcessoDados.cs" />
+    <Compile Include="SetorAcessoDados.cs" />
+    <Compile Include="TempAcessoDados.cs" />
+    <Compile Include="TipoPagamentoAcessoDados.cs" />
+    <Compile Include="TribAcessoDados.cs" />
+    <Compile Include="UsuarioAcessoDados.cs" />
+    <Compile Include="VendaAcessoDados.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Scripts\jquery-2.1.1.min.map" />
+    <None Include="Scripts\jquery.qrcode.min.js.map" />
+    <None Include="Scripts\qrcode.min.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-2.1.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery.qrcode.js" />
+    <Content Include="Scripts\jquery.qrcode.min.js" />
+    <Content Include="Scripts\nugetexample.js" />
+    <Content Include="Scripts\qrcode.js" />
+    <Content Include="Scripts\qrcode.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
